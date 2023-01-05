@@ -1,0 +1,54 @@
+{
+  "telemetry.enableTelemetry": false,
+  "editor.tabSize": 2,
+  // Fit code within this line limit
+  "prettier.printWidth": 160,
+  "prettier.singleQuote": true,
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "workbench.activityBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "tslint.autoFixOnSave": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.history": true,
+    ".history": true,
+    ".history/*": true,
+    "**/dist": true,
+    "**/vendor/zendframework": true,
+    "**/vendor/aws": true,
+    "**/vendor/phpunit": true,
+    "**/vendor/mtdowling": true,
+    "**/vendor/guzzlehttp": true,
+    "**/vendor/react": true,
+    "**/vendor/sebastian": true,
+    "**/vendor/sendgrid": true,
+    "**/vendor/symfony": true,
+    "**/assets/global/plugins": true,
+    "**/vendor/monolog": true,
+    "api/data/logs": true,
+    "api/data/febiac": true,
+    "api/data/sql": true,
+    "**/tmp_log.log": true,
+    "**/.angular/cache": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/coverage": true,
+    ".mongo-data": true,
+    "**/.history": true,
+    ".history": true,
+    ".history/*": true
+  },
+  "editor.formatOnSave": true,
+  "[php]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "angular.enable-strict-mode-prompt": true
+}
